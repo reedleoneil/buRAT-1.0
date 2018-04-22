@@ -32,7 +32,7 @@ Just complie the source.
 ## Check this out!
 >Fore more information, check out my thread at [symbianize](http://www.symbianize.com/showthread.php?t=1438493&p=23023323&viewfull=1#post23023323)
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/JOeLhkXqM8M/0.jpg)](http://www.youtube.com/watch?v=JOeLhkXqM8M)
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/oOiIZOfxwuI/0.jpg)](http://www.youtube.com/watch?v=oOiIZOfxwuI)
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/6ozIREjmnyo/0.jpg)](http://www.youtube.com/watch?v=6ozIREjmnyo)
+[![watch @ youtube](http://img.youtube.com/vi/JOeLhkXqM8M/0.jpg)](http://www.youtube.com/watch?v=JOeLhkXqM8M)
+[![watch @ youtube](http://img.youtube.com/vi/oOiIZOfxwuI/0.jpg)](http://www.youtube.com/watch?v=oOiIZOfxwuI)
+[![watch @ youtube](http://img.youtube.com/vi/6ozIREjmnyo/0.jpg)](http://www.youtube.com/watch?v=6ozIREjmnyo)
 
