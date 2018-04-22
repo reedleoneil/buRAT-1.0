@@ -1,0 +1,197 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 11, 2013, 6:06:27 PM
+    Author     : dr.gero
+*/
+
+.table-view {
+  -fx-base: rgba(0, 0, 0, 0.7);
+  -fx-control-inner-background: rgba(0, 0, 0, 0.7);
+  -fx-background-color: rgba(0, 0, 0, 0.7);
+  -fx-table-cell-border-color: white;
+  -fx-table-header-border-color: white;
+  -fx-border-color: white;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: rgba(0, 0, 0, 0.3);
+    -fx-border-color: white;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 20;
+    -fx-border-width: 0 1 0 0;
+    -fx-border-color: white;
+    -fx-border-insets: 0 0 0 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 14px;
+    -fx-font-family: "Miriam Fixed";
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-opacity: 1;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+
+.table-row-cell {
+    -fx-background-color: rgba(0, 0, 0, 0.0);
+    -fx-font-size:12px;
+    -fx-font-family: "Miriam Fixed";
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: .5 .5 0 0;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.table-view:focused .table-row-cell:filled:selected .table-cell {
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.table-view:focused .table-row-cell:filled:selected, .table-view:row-selection .table-row-cell:filled:hover:selected {
+    -fx-background-color: rgba(255, 255, 255, 0.5);;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.table-row-cell:filled:selected:focused, .table-row-cell:filled:selected {
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.table-row-cell:selected:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
+
+.table-view:row-selection .table-row-cell:filled:hover { 
+    -fx-background-color: rgba(255, 255, 255, 0.5);;
+    -fx-text-fill: -fx-text-inner-color;
+}
+
+.table-view:row-selection .table-row-cell:filled:focused:hover { 
+    -fx-background-color: rgba(255, 255, 255, 0.5);;
+    -fx-text-fill: -fx-text-inner-color;
+}
+
+.table-view .scroll-bar:vertical {
+-fx-opacity: .5;
+-fx-background-color: transparent;
+-fx-border-color: white;
+}
+
+.table-view .scroll-bar:vertical .decrement-button {
+-fx-opacity: 1;
+-fx-background-color: black;
+-fx-border-color: white;
+}
+
+.table-view .scroll-bar:vertical .increment-button {
+-fx-opacity: 1;
+-fx-background-color: black;
+-fx-border-color: white;
+}
+
+.table-view .scroll-bar:vertical .track {
+-fx-opacity: 1;
+-fx-background-color: black;
+-fx-border-color: white;
+}
+
+.table-view .scroll-bar:vertical .thumb {
+-fx-opacity: 1;
+-fx-background-color: white;
+-fx-border-color: black;
+}
+
+.table-view .scroll-bar:horizontal {
+-fx-opacity: .5;
+-fx-background-color: transparent;
+-fx-border-color: white;
+}
+
+.table-view .scroll-bar:horizontal .decrement-button {
+-fx-opacity: 1;
+-fx-background-color: black;
+-fx-border-color: white;
+}
+
+.table-view .scroll-bar:horizontal .increment-button {
+-fx-opacity: 1;
+-fx-background-color: black;
+-fx-border-color: white;
+}
+
+.table-view .scroll-bar:horizontal .track {
+-fx-opacity: 1;
+-fx-background-color: black;
+-fx-border-color: white;
+}
+
+.table-view .scroll-bar:horizontal .thumb {
+-fx-opacity: 1;
+-fx-background-color: white;
+-fx-border-color: black;
+}
+
+.text-area {
+-fx-background-color: rgba(0, 0, 0, 0.7);
+-fx-font: 14px "Miriam Fixed"; 
+-fx-text-fill: white;
+-fx-highlight-fill: white;
+-fx-highlight-text-fill: black;
+-fx-border-color: white;
+}
+
+.text-area .scroll-bar:vertical {
+-fx-opacity: .5;
+-fx-background-color: transparent;
+-fx-border-color: white;
+}
+
+.text-area .scroll-bar:vertical .decrement-button {
+-fx-opacity: 1;
+-fx-background-color: black;
+-fx-border-color: white;
+}
+
+.text-area .scroll-bar:vertical .increment-button {
+-fx-opacity: 1;
+-fx-background-color: black;
+-fx-border-color: white;
+}
+
+.text-area .scroll-bar:vertical .track {
+-fx-opacity: 1;
+-fx-background-color: black;
+-fx-border-color: white;
+}
+
+.text-area .scroll-bar:vertical .thumb {
+-fx-opacity: 1;
+-fx-background-color: white;
+-fx-border-color: black;
+}
+
+.text-field {
+-fx-background-color: rgba(0, 0, 0, 0.7);
+-fx-font: 14px 'Miriam Fixed';
+-fx-text-fill: white;
+-fx-highlight-fill: white;
+-fx-highlight-text-fill: black;
+-fx-border-color: white;
+}

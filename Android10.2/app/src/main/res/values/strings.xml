@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android 10.2</string>
+    <string name="title_section1">Electric Fan</string>
+    <string name="title_section2">Lighting</string>
+    <string name="title_section3">Electrical Socket</string>
+    <string name="title_section4">Computer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Voice Command</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
